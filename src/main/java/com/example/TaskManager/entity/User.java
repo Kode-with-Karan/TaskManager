@@ -21,6 +21,8 @@ public class User {
 
     public String password;
 
+    public
+
     @CreationTimestamp
     @Column(updatable = false)
     public LocalDateTime createdAt;
