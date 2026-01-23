@@ -21,7 +21,7 @@ public class User {
 
     public String password;
 
-    public
+//    public
 
     @CreationTimestamp
     @Column(updatable = false)
