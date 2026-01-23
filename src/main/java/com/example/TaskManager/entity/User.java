@@ -18,6 +18,7 @@ import java.util.List;
 @Table(name = "TaskUser")
 @Builder
 public class User implements UserDetails {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Long id;
